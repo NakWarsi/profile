@@ -9,6 +9,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { SoftwareSolutionComponent } from './components/services/software-solution/software-solution.component';
 import { TrainingComponent } from './components/services/training/training.component';
 import { NavManueComponent } from './components/nav-manue/nav-manue.component';
+import { TechnologiesComponent } from './components/technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavManueComponent } from './components/nav-manue/nav-manue.component';
     ContactUsComponent,
     SoftwareSolutionComponent,
     TrainingComponent,
-    NavManueComponent
+    NavManueComponent,
+    TechnologiesComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,7 @@ import { NavManueComponent } from './components/nav-manue/nav-manue.component';
       { path: 'about', component: AboutComponent },
       { path: 'service', component: ServicesComponent },
       { path: 'contacts', component: ContactUsComponent },
+      { path: 'technologies', component: TechnologiesComponent },
     ])
   ],
   providers: [],
